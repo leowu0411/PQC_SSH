@@ -16,7 +16,7 @@ git clone https://github.com/leowu0411/PQC_SSH.git && cd PQC_SSH
 ```
 
 ## How to use
-
+### Server END
 In server end, go to location where to build this fork, and run
 
 ```bash
@@ -24,6 +24,7 @@ $(pwd)/sshd -f $(pwd)/sshd_config
 ```
 the "sshd_config" can be modified, like change port, how to do authorization, etc.
 
+### Client end
 And in client end, also go to location where to build this fork, and run
 ```bash
 # the kex can switch to kyber-512-sha256, kyber-768-sha384, or kyber-1024-sha512
