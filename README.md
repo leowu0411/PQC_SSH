@@ -28,5 +28,5 @@ the "sshd_config" can be modified, like change port, how to do authorization, et
 And in client end, also go to location where to build this fork, and run
 ```bash
 # the kex can switch to kyber-512-sha256, kyber-768-sha384, or kyber-1024-sha512
-$(pwd)/ssh -o KexAlgorithms=kyber-512-sha-256 -v username@server-ip
+$(pwd)/ssh -F ssh_config -i ~/.ssh/UserPrivate.key -o KexAlgorithms=kyber-512-sha-256 -v username@server-ip
 ```
