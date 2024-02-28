@@ -3,7 +3,7 @@ This is the fork from Openssh can use "Kyber" as a key exchange method when C/S 
 
 ## Insatllation
 ### Install those packege before you build this fork
-on Ubuntu :
+On Ubuntu :
 ```bash
   sudo apt install astyle cmake gcc ninja-build libssl-dev python3-pytest python3-pytest-xdist unzip xsltproc doxygen graphviz python3-yaml valgrind
 ```
