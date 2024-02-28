@@ -2,7 +2,17 @@
 This is the fork from Openssh can use "Kyber" as a key exchange method when C/S lauch SSH connection
 
 ## Insatllation
-
+### Install those packege before you build this fork
+on Ubuntu :
+```bash
+  sudo apt install astyle cmake gcc ninja-build libssl-dev python3-pytest python3-pytest-xdist unzip xsltproc doxygen graphviz python3-yaml valgrind
+```
+On macOS, using a package manager of your choice (Homebrew as example):
+```bash
+ brew install cmake ninja openssl@3 wget doxygen graphviz astyle valgrind
+ pip3 install pytest pytest-xdist pyyaml
+```
+### Run below command to build this fork
 ```bash
 # 1, clone this repo and get into it
 git clone https://github.com/leowu0411/PQC_SSH.git && cd PQC_SSH
